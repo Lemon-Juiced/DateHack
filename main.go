@@ -21,7 +21,7 @@ func main() {
 
 	// Load a character (as a square for now) and add it to the window - add keyboard controls for movement
 	rect := canvas.NewRectangle(color.White)
-	rect.SetMinSize(fyne.NewSize(50, 50))
+	rect.SetMinSize(fyne.NewSize(32, 32))
 
 	// Center the rectangle in the window
 	centeredRect := container.NewCenter(rect)

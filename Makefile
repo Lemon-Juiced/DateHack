@@ -1,6 +1,6 @@
 .PHONY: build run clean
 
-SOURCES = main.go
+SOURCES = main.go character.go
 
 build:
 	go build -o DateHack.exe $(SOURCES)
